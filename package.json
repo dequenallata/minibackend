@@ -1,0 +1,18 @@
+{
+  "name": "multinegocio-backend",
+  "version": "1.0.0",
+  "description": "Mini backend con arquitectura 3 capas y multitenancy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
